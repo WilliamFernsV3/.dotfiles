@@ -1,0 +1,86 @@
+line-length = 100
+
+exclude = [
+  ".bzr",
+  ".direnv",
+  ".eggs",
+  ".git",
+  ".git-rewrite",
+  ".hg",
+  ".ipynb_checkpoints",
+  ".mypy_cache",
+  ".nox",
+  ".pants.d",
+  ".pyenv",
+  ".pytest_cache",
+  ".pytype",
+  ".ruff_cache",
+  ".svn",
+  ".tox",
+  ".venv",
+  ".vscode",
+  "__pypackages__",
+  "_build",
+  "buck-out",
+  "build",
+  "dist",
+  "node_modules",
+  "site-packages",
+  "venv",
+]
+
+[lint]
+select = [
+  "E4",  # PEP8 errors
+  "E7",  # PEP8 errors
+  "E9",  # PEP8 errors
+  "F",   # Pyflakes
+  "B",   # Bugbear
+  "C",   # McCabe complexity
+  "N",   # Naming conventions
+  "D",   # Docstrings
+  "Q",   # Quotes
+  "S",   # Security
+  "I",   # Import order (isort specifically)
+  "RUF100", # mypy rules
+  "PT",   # pytest style rules
+  "ANN"  # enable all annotations rules
+]
+ignore = [
+  "ANN101",
+  "D211",
+  "D212",
+  "E111",
+  "E114",
+  "E117",
+  "D300",
+  "D203",
+  "D205",
+]
+
+# Allow fix for all enabled rules (when `--fix`) is provided.
+fixable = ["ALL"]
+unfixable = []
+
+# Allow unused variables when underscore-prefixed.
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+# Per-file ignores
+[lint.extend-per-file-ignores]
+"__init__.py" = ["E402"]
+"**/{docs,tools}/*" = ["E402"]
+#"**/{tests,docs,tools}/*" = ["E402"]
+
+[lint.flake8-quotes]
+docstring-quotes = "double"
+inline-quotes = "double"
+
+# Additional configuration
+[lint.mccabe]
+max-complexity = 10
+
+[format]
+quote-style = "double"
+indent-style = "space"
+docstring-code-format = true
+docstring-code-line-length = 30

@@ -1,0 +1,38 @@
+# import = [
+#    "~/.config/alacritty/themes/themes/tokyo-night.toml"
+# ]
+
+[env]
+TERM = "xterm-256color"
+
+[shell]
+program = "/bin/zsh"
+
+[window]
+
+padding.x = 20
+padding.y = 20
+
+decorations = "Buttonless"
+opacity = 0.7
+blur = true
+
+option_as_alt = "Both"
+
+[font]
+
+normal.family = "MesloLGS Nerd Font Mono"
+
+size = 16
+
+[colors]
+transparent_background_colors = true
+
+[keyboard]
+bindings = [
+  { key = "Right", mods = "Alt", chars = "\u001BF" },
+  { key = "Left",  mods = "Alt", chars = "\u001BB" },
+  { key = "Left", mods = "Command", chars = "\u001B[H" },
+  { key = "Right", mods = "Command", chars = "\u001B[F" },
+  { key = "Backspace", mods = "Command", chars = "\u0015" }
+]
