@@ -1,4 +1,5 @@
 export PATH="/opt/homebrew/bin:$PATH"
+export bun="~/.bun/bin"
  
 # Start tmux automatically if not already inside a tmux session
 if [ -z "$TMUX" ]; then
@@ -161,3 +162,10 @@ source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 eval "$(zoxide init zsh)" # better cd
+
+# bun completions
+[ -s "/Users/williamferns/.bun/_bun" ] && source "/Users/williamferns/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"

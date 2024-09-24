@@ -59,15 +59,11 @@ M.general = {
     },
   },
 
-  t = {
-    ["<C-x>"] = { vim.api.nvim_replace_termcodes("<C-\\><C-N>", true, true, true), "Escape terminal mode" },
-  },
-
+  t = { ["<C-x>"] = { vim.api.nvim_replace_termcodes("<C-\\><C-N>", true, true, true), "Escape terminal mode" }, },
   v = {
-    ["K"] = { "<cmd>m '<-2<CR>gv=gv", "Move Selected Text Up" },
-    ["J"] = { "<cmd>m <CR>'>+1<CR>gv=gv", "Move Selected Text Down" },
-    ["<Up>"] = { 'v:count || mode(1)[0:1] == "no" ? "k" : "gk"', "Move up", opts = { expr = true } },
-    ["<Down>"] = { 'v:count || mode(1)[0:1] == "no" ? "j" : "gj"', "Move down", opts = { expr = true } },
+    ["J"] = { ":s/\\n\\s*//g<CR>gv", opts = { noremap = true, silent = true }, desc = "Join lines and remove extra spaces in visual mode" },
+    ["<leader><C-k>"] = { "<cmd>m '<-2<CR>gv=gv", "Move Selected Text Up" },
+    ["<leader><C-j>"] = { "<cmd>m '>+1<CR>gv=gv", "Move Selected Text Down" },
     ["<"] = { "<gv", "Indent line" },
     [">"] = { ">gv", "Indent line" },
   },

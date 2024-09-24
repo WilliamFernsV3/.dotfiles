@@ -69,12 +69,12 @@
             },
             "devices": [
                 {
+                    "disable_built_in_keyboard_if_exists": true,
                     "identifiers": {
                         "is_keyboard": true,
                         "product_id": 35096,
                         "vendor_id": 44580
-                    },
-                    "manipulate_caps_lock_led": false
+                    }
                 }
             ],
             "name": "Default profile",
