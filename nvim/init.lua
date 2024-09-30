@@ -57,3 +57,4 @@ vim.api.nvim_create_autocmd("FileType", {
 
 vim.opt.conceallevel = 1
 vim.wo.relativenumber = true
+-- vim.wo.number = true
