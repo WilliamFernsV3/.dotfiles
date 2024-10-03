@@ -57,4 +57,6 @@ vim.api.nvim_create_autocmd("FileType", {
 
 vim.opt.conceallevel = 1
 vim.wo.relativenumber = true
+
+vim.o.maxmempattern = 2000000
 -- vim.wo.number = true
