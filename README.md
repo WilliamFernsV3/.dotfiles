@@ -124,3 +124,9 @@ brew install --cask bettertouchtool
 brew tap FelixKratz/formulae
 brew install borders
 ```
+
+24. Move keyboard layout to correct location. This is for mac os:
+
+```bash
+ln -s ./real_prog_dvoark.keylayout /Library/Keyboard\ Layouts
+```
