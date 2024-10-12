@@ -27,7 +27,7 @@ accordion-padding = 0
 
 # Possible values: (qwerty|dvorak)
 # See https://nikitabobko.github.io/AeroSpace/guide#key-mapping
-key-mapping.preset = 'qwerty'
+key-mapping.preset = 'dvorak'
 
 # Mouse follows focus when focused monitor changes
 on-focused-monitor-changed = ['move-mouse monitor-lazy-center']
@@ -50,7 +50,7 @@ outer.right =      16
 [mode.main.binding]
 # See: https://nikitabobko.github.io/AeroSpace/goodness#open-a-new-window-with-applescript
 alt-enter = 'exec-and-forget open -n /Applications/Alacritty.app/'
-alt-o = 'exec-and-forget open -n /Applications/Obsidian.app/'
+alt-n = 'exec-and-forget open -n /Applications/Obsidian.app/'
 alt-a = 'exec-and-forget open -n /Applications/Arc.app/'
 
 alt-h = 'focus left'

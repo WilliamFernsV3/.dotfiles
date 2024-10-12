@@ -1,5 +1,6 @@
 export PATH="/opt/homebrew/bin:$PATH"
 export bun="~/.bun/bin"
+export PATH="$HOME/.config/scripts:$PATH"
  
 # Start tmux automatically if not already inside a tmux session
 if [ -z "$TMUX" ]; then
