@@ -63,6 +63,18 @@ matches:
   - trigger: "-gpp"
     replace: "https://github.com/WilliamFernsV3/"
 
+  - trigger: "-tpp"
+    replace: "https://www.twitch.tv/williamfernsv3"
+
+  - trigger: "-bcpp"
+    replace: "https://buymeacoffee.com/williamfernsv3"
+
+  - trigger: "-ppp"
+    replace: "https://williamferns.org"
+
+  - trigger: "-dsl"
+    replace: "https://discord.gg/eQxAnTP6Qj"
+
   - trigger: "-gap"
     replace: "https://github.com/Automa-Automations/"
 

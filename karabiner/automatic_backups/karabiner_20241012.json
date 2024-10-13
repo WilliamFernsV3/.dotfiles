@@ -17,7 +17,7 @@
                         ]
                     },
                     {
-                        "description": "Remap option + tab to space key",
+                        "description": "Remap command + tab to space key",
                         "manipulators": [
                             {
                                 "from": {
