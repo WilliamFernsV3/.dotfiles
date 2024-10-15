@@ -89,6 +89,9 @@ matches:
         params:
           cmd: "cat ~/.config/espanso/match/outputs/code/github-pr.txt"
 
+  - trigger: "-jslc" # javascript line comment
+    replace: "// ------------------------------- //"
+
   # anchor tag shorthand
   - trigger: "-htmla"
     replace: '<a href="T" target="_blank">B</a>'
