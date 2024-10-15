@@ -11,10 +11,12 @@ M.general = {
   },
 
   n = {
+    ["K"] = { ":move .-2<CR>==", "Move Line Up" },
+    ["J"] = { ":move .+1<CR>==", "Move Line Down" },
     ["<A-p>"] = { "<C-o>zz", desc = "Jump To Previous " },
     ["<A-n>"] = { "<C-i>zz", desc = "Jump To Next" },
     ['<Esc>'] = { '<cmd>nohlsearch<CR>', desc = "Remove search highlights", opts = { noremap = true, silent = true } },
-    ["J"] = { "mzJ`z", "Join lines" },
+    ["W"] = { "mzJ`z", "Join lines" },
     ["<C-d>"] = { "<C-d>zz", "Scrolls down half a page" },
     ["<C-u>"] = { "<C-u>zz", "Scrolls up half a page" },
     ["n"] = { "nzzzv", "Moves to the next search result" },
@@ -61,11 +63,11 @@ M.general = {
 
   t = { ["<C-x>"] = { vim.api.nvim_replace_termcodes("<C-\\><C-N>", true, true, true), "Escape terminal mode" }, },
   v = {
-    ["J"] = { ":s/\\n\\s*//g<CR>gv", opts = { noremap = true, silent = true }, desc = "Join lines and remove extra spaces in visual mode" },
-    ["<leader><C-k>"] = { "<cmd>m '<-2<CR>gv=gv", "Move Selected Text Up" },
-    ["<leader><C-j>"] = { "<cmd>m '>+1<CR>gv=gv", "Move Selected Text Down" },
+    ["W"] = { ":s/\\n\\s*//g<CR>gv", opts = { noremap = true, silent = true }, desc = "Join lines and remove extra spaces in visual mode" },
+    ["K"] = { ":move '<-2<CR>gv=gv", "Move Selected Text Up" },
+    ["J"] = { ":move '>+1<CR>gv=gv", "Move Selected Text Down" },
     ["<"] = { "<gv", "Indent line" },
-    [">"] = { ">gv", "Indent line" },
+    [">"] = { ">gv", "Indent line" }
   },
 
   x = {
@@ -118,7 +120,7 @@ M.lspconfig = {
       "LSP definition",
     },
 
-    ["K"] = {
+    ["H"] = {
       function()
         vim.lsp.buf.hover()
       end,
