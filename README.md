@@ -69,9 +69,15 @@ When I have multiple applications side-by-side, it can be hard to know which one
 
 ![Tiling Window Manager Showcase Image](docs/assets/tiling-window-manager.gif)
 
-## Installation
+## Setup
 
-1. Install [homebrew](https://brew.sh/) and follow terminal output commands
+```bash
+git clone https://github.com/WilliamFernsV3/.dotfiles && \
+cd .dotfiles && \
+sh +x ./setup.sh
+```
+
+<!-- 1. Install [homebrew](https://brew.sh/) and follow terminal output commands
 
 2. Install Alacritty
 ```bash
@@ -203,4 +209,4 @@ sudo cp ./prog_dvorak.keylayout /Library/Keyboard\ Layouts
 25. Install auto-completion plugin:
 ```bash
  brew install zsh-autocomplete
-```
+``` -->
