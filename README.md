@@ -73,8 +73,29 @@ When I have multiple applications side-by-side, it can be hard to know which one
 
 ## Setup
 
+**Clone dotfiles locally and `cd` into it**:
+
 ```bash
 git clone https://github.com/WilliamFernsV3/.dotfiles && \
-cd .dotfiles && \
-sh +x ./setup.sh
+cd .dotfiles
 ```
+
+**Backup**:
+
+> [!WARNING]
+> Backup your old config files beforehand, because this could overwrite or modify it. This includes your Visual Studio Code configs, ZSH config, Vimrc, and all the files inside `~/.config`. A better solution would be to move all your configurations that aren't inside `~/.config` to it, then symlink it to the right locations, create a git repository and push it to a private Github repository.
+
+This script will copy all your configurations that could be overwritten to `~/.config.backup`:
+
+```bash
+./scrips/backup.sh
+```
+
+**After backing everything up, run**:
+
+```bash
+./scrips/setup.sh
+```
+
+<!-- Add keyboard layout docs here -->
+<!-- Add Contribution guide here -->
