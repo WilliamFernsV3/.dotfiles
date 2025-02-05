@@ -1,0 +1,93 @@
+{
+    "Add trace message": {
+        "prefix": "trace",
+        "body": [
+            "logger.trace(",
+            "\t\"${2:Message}.\",",
+            "\tmetadata: [",
+            "\t\t\"to\": .string(\"\\(String(describing: Self.self)).\\(#function)\"),",
+            "\t\t$0",
+            "\t]",
+            ")"
+        ],
+        "description": "Log trace message to terminal"
+    },
+    "Add debug message": {
+        "prefix": "debug",
+        "body": [
+            "logger.debug(",
+            "\t\"${2:Message}.\",",
+            "\tmetadata: [",
+            "\t\t\"to\": .string(\"\\(String(describing: Self.self)).\\(#function)\"),",
+            "\t\t$0",
+            "\t]",
+            ")"
+        ],
+        "description": "Log debug message to terminal"
+    },
+    "Add info message": {
+        "prefix": "info",
+        "body": [
+            "logger.info(",
+            "\t\"${2:Message}.\",",
+            "\tmetadata: [",
+            "\t\t\"to\": .string(\"\\(String(describing: Self.self)).\\(#function)\"),",
+            "\t\t$0",
+            "\t]",
+            ")"
+        ],
+        "description": "Log info message to terminal"
+    },
+    "Add notice message": {
+        "prefix": "notice",
+        "body": [
+            "logger.notice(",
+            "\t\"${2:Message}.\",",
+            "\tmetadata: [",
+            "\t\t\"to\": .string(\"\\(String(describing: Self.self)).\\(#function)\"),",
+            "\t\t$0",
+            "\t]",
+            ")"
+        ],
+        "description": "Log notice message to terminal"
+    },
+    "Add warning message": {
+        "prefix": "warning",
+        "body": [
+            "logger.warning(",
+            "\t\"${2:Message}.\",",
+            "\tmetadata: [",
+            "\t\t\"to\": .string(\"\\(String(describing: Self.self)).\\(#function)\"),",
+            "\t\t$0",
+            "\t]",
+            ")"
+        ],
+        "description": "Log warning message to terminal"
+    },
+    "Add error message": {
+        "prefix": "error",
+        "body": [
+            "logger.error(",
+            "\t\"${2:Message}.\",",
+            "\tmetadata: [",
+            "\t\t\"to\": .string(\"\\(String(describing: Self.self)).\\(#function)\"),",
+            "\t\t$0",
+            "\t]",
+            ")"
+        ],
+        "description": "Log error message to terminal"
+    },
+    "Add critical message": {
+        "prefix": "critical",
+        "body": [
+            "logger.critical(",
+            "\t\"${2:Message}.\",",
+            "\tmetadata: [",
+            "\t\t\"to\": .string(\"\\(String(describing: Self.self)).\\(#function)\"),",
+            "\t\t$0",
+            "\t]",
+            ")"
+        ],
+        "description": "Log critical message to terminal"
+    }
+}

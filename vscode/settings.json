@@ -1,0 +1,1669 @@
+{
+    "editor.lineNumbers": "relative",
+    "breadcrumbs.enabled": false,
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay",
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "explorer.confirmDragAndDrop": false,
+    "git.confirmSync": false,
+    "git.decorations.enabled": false,
+    "workbench.externalBrowser": "Arc",
+    "githubPullRequests.commentExpandState": "expandUnresolved",
+    "lldb.library": "/Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB",
+    "lldb.launch.expressions": "native",
+    "terminal.integrated.confirmOnExit": "never",
+    "terminal.integrated.confirmOnKill": "never",
+    "database-client.autoSync": true,
+    "workbench.colorTheme": "Catppuccin Frappé",
+    "workbench.iconTheme": "catppuccin-frappe",
+    "workbench.sideBar.location": "right",
+    "workbench.tree.enableStickyScroll": false,
+    "security.workspace.trust.enabled": false,
+    "editor.linkedEditing": true,
+    "diffEditor.wordWrap": "on",
+    "notebook.output.wordWrap": true,
+    "editor.minimap.maxColumn": 250,
+    "files.enableTrash": false,
+    "explorer.confirmDelete": false,
+    "notebook.confirmDeleteRunningCell": false,
+    "editor.accessibilitySupport": "off",
+    "chat.editor.wordWrap": "on",
+    // Typography
+    "editor.fontFamily": "MesloLGS Nerd Font Mono",
+    "editor.suggestFontSize": 16,
+    "editor.suggestLineHeight": 25,
+    "terminal.integrated.lineHeight": 1.2,
+    "terminal.integrated.fontSize": 16,
+    "editor.copyWithSyntaxHighlighting": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.emptySelectionClipboard": false,
+    "workbench.editor.enablePreview": false,
+    "window.newWindowDimensions": "inherit",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "files.trimTrailingWhitespace": true,
+    "diffEditor.renderSideBySide": false,
+    "editor.snippetSuggestions": "top",
+    "editor.detectIndentation": false,
+    "window.nativeFullScreen": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "editor.minimap.enabled": false,
+    "editor.guides.indentation": false,
+    // "scm.diffDecorations": "none",
+    "editor.hover.enabled": true,
+    "editor.matchBrackets": "never",
+    "workbench.tips.enabled": false,
+    "editor.colorDecorators": false,
+    "workbench.startupEditor": "none",
+    "editor.lightbulb.enabled": "off",
+    "editor.selectionHighlight": false,
+    "editor.overviewRulerBorder": false,
+    "editor.renderLineHighlight": "none",
+    "editor.occurrencesHighlight": "off",
+    "problems.decorations.enabled": false,
+    "editor.renderControlCharacters": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "editor.gotoLocation.multipleImplementations": "goto",
+    "editor.gotoLocation.multipleTypeDefinitions": "goto",
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    // Add custom styles and scripts to modify VS Code further.
+    "vscode_custom_css.imports": [
+        "file:///Users/williamferns/.config/vscode/custom-vscode-styles.css",
+    ],
+    "editor.stickyScroll.scrollWithEditor": false,
+    "workbench.colorCustomizations": {},
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "workbench.activityBar.location": "hidden",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                ">"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        },
+        {
+            "before": [
+                "<"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ]
+        },
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<space>"
+            ],
+            "commands": [
+                "whichkey.show"
+            ]
+        },
+        {
+            "before": [
+                "p",
+            ],
+            "after": [
+                "p",
+                "g",
+                "v",
+                "y"
+            ]
+        }
+    ],
+    "vim.operatorPendingModeKeyBindings": [
+        {
+            "before": [
+                "L"
+            ],
+            "after": [
+                "$"
+            ]
+        },
+        {
+            "before": [
+                "H"
+            ],
+            "after": [
+                "^"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<space>"
+            ],
+            "commands": [
+                "whichkey.show"
+            ]
+        },
+        {
+            "before": [
+                "{"
+            ],
+            "commands": [
+                "workbench.action.previousEditor"
+            ]
+        },
+        {
+            "before": [
+                "}"
+            ],
+            "commands": [
+                "workbench.action.nextEditor"
+            ]
+        },
+        {
+            "before": [
+                "}"
+            ],
+            "commands": [
+                "workbench.action.previousEditor"
+            ]
+        },
+        {
+            "before": [
+                "c-d"
+            ],
+            "after": [
+                "M",
+                "c-d"
+            ]
+        },
+        {
+            "before": [
+                "c-u"
+            ],
+            "after": [
+                "c-u",
+                "z",
+                "z"
+            ]
+        },
+        {
+            "before": [
+                "[",
+                "d"
+            ],
+            "commands": [
+                "editor.action.marker.prev"
+            ]
+        },
+        {
+            "before": [
+                "]",
+                "d"
+            ],
+            "commands": [
+                "editor.action.marker.next"
+            ]
+        },
+        {
+            "before": [
+                "<Esc>"
+            ],
+            "commands": [
+                ":nohl"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "lineBreakInsert"
+            ],
+            "silent": true
+        },
+    ],
+    "vim.leader": "<space>",
+    // To improve performance
+    "extensions.experimental.affinity": {
+        "vscodevim.vim": 1
+    },
+    // "workbench.editor.showTabs": "none",
+    "swift.disableAutoResolve": true,
+    "redhat.telemetry.enabled": false,
+    "githubIssues.issueBranchTitle": "${user}/issue${sanitizedIssueTitle}",
+    "githubPullRequests.defaultMergeMethod": "squash",
+    "whichkey.delay": 0,
+    "whichkey.bindings": [
+        {
+            "key": "/",
+            "name": "Add Comment",
+            "type": "command",
+            "command": "editor.action.addCommentLine"
+        },
+        {
+            "key": ":",
+            "name": "Show Commands",
+            "type": "command",
+            "command": "workbench.action.showCommands"
+        },
+        {
+            "key": "%",
+            "name": "Split: Vertical",
+            "command": "workbench.action.splitEditorRight"
+        },
+        {
+            "key": "\"",
+            "name": "Split: Horizontal",
+            "command": "workbench.action.splitEditorDown"
+        },
+        {
+            "key": "H",
+            "name": "Pane: Focus Left",
+            "command": "workbench.action.focusLeftGroup"
+        },
+        {
+            "key": "L",
+            "name": "Pane: Focus Right",
+            "command": "workbench.action.focusRightGroup"
+        },
+        {
+            "key": "K",
+            "name": "Pane: Focus Above",
+            "command": "workbench.action.focusAboveGroup"
+        },
+        {
+            "key": "J",
+            "name": "Pane: Focus Below",
+            "command": "workbenc wuh.action.focusBelowGroup"
+        },
+        {
+            "key": "w",
+            "name": "File: Save",
+            "command": "workbench.action.files.save"
+        },
+        {
+            "key": "x",
+            "name": "Close",
+            "command": "workbench.action.closeActiveEditor"
+        },
+        {
+            "key": "X",
+            "name": "Close All Other Non-Terminal Editors",
+            "command": "tmux.closeNonTerminalEditors"
+        },
+        {
+            "key": "c",
+            "name": "Code...",
+            "type": "bindings",
+            "bindings": [
+                {
+                    "key": "a",
+                    "name": "Actions",
+                    "type": "command",
+                    "command": "editor.action.quickFix"
+                },
+                {
+                    "key": "r",
+                    "name": "Refactor",
+                    "type": "command",
+                    "command": "editor.action.refactor"
+                },
+                {
+                    "key": "s",
+                    "name": "Rename Symbol",
+                    "type": "command",
+                    "command": "editor.action.rename"
+                },
+                {
+                    "key": "f",
+                    "name": "Format",
+                    "type": "command",
+                    "command": "editor.action.formatDocument"
+                },
+            ]
+        },
+        {
+            "key": "r",
+            "name": "References...",
+            "type": "bindings",
+            "bindings": [
+                // TODO: move this somewhere else, it should not be under references.
+                {
+                    "key": "t",
+                    "name": "Type Definition",
+                    "type": "commands",
+                    "commands": [
+                        "editor.action.goToTypeDefinition",
+                    ]
+                },
+                {
+                    "key": "f",
+                    "name": "Find",
+                    "type": "commands",
+                    "commands": [
+                        "references-view.findReferences",
+                    ]
+                },
+                {
+                    "key": "r",
+                    "name": "Refresh",
+                    "type": "command",
+                    "command": "references-view.refresh"
+                },
+                {
+                    "key": "g",
+                    "name": "Go",
+                    "type": "command",
+                    "command": "editor.action.goToReferences"
+                },
+                {
+                    "key": "v",
+                    "name": "Go",
+                    "type": "command",
+                    "command": "workbench.view.extension.references-view"
+                },
+                {
+                    "key": "N",
+                    "name": "Previous",
+                    "type": "commands",
+                    "commands": [
+                        "references-view.prev",
+                        "workbench.action.focusRightGroup",
+                        "workbench.action.toggleSidebarVisibility"
+                    ]
+                },
+                {
+                    "key": "n",
+                    "name": "Next",
+                    "type": "commands",
+                    "commands": [
+                        "references-view.next",
+                        "workbench.action.focusRightGroup",
+                        "workbench.action.toggleSidebarVisibility"
+                    ]
+                },
+            ]
+        },
+        {
+            "key": "p",
+            "name": "Project...",
+            "type": "bindings",
+            "bindings": [
+                {
+                    "key": "f",
+                    "name": "Quick Open",
+                    "type": "command",
+                    "command": "workbench.action.quickOpen"
+                },
+                {
+                    "key": "o",
+                    "name": "Open...",
+                    "type": "bindings",
+                    "bindings": [
+                        {
+                            "key": "F",
+                            "name": "Open Folder",
+                            "type": "command",
+                            "command": "workbench.action.quickOpen"
+                        },
+                        {
+                            "key": "f",
+                            "name": "Open File",
+                            "type": "command",
+                            "command": "workbench.action.files.openFile"
+                        },
+                    ]
+                },
+            ]
+        },
+        {
+            "key": "g",
+            "name": "Git...",
+            "type": "bindings",
+            "bindings": [
+                {
+                    "key": "v",
+                    "name": "View Source Control",
+                    "type": "command",
+                    "command": "workbench.view.scm"
+                },
+                {
+                    "key": "p",
+                    "name": "Pull Requests...",
+                    "type": "bindings",
+                    "bindings": [
+                        {
+                            "key": "v",
+                            "name": "View",
+                            "type": "command",
+                            "command": "pr:github.focus"
+                        },
+                        {
+                            "key": "o",
+                            "name": "Open In Browser",
+                            "type": "command",
+                            "command": "pr.openPullsWebsite"
+                        },
+                        {
+                            "key": "c",
+                            "name": "Open Currently Opened In Browser",
+                            "type": "command",
+                            "command": "pr.openPullRequestOnGitHub"
+                        },
+                        {
+                            "key": "r",
+                            "name": "Refresh",
+                            "type": "commands",
+                            "commands": [
+                                "pr.refreshDescription",
+                                "pr.refreshList"
+                            ]
+                        },
+                        {
+                            "key": "C",
+                            "name": "Checkout By Number",
+                            "type": "command",
+                            "command": "pr.checkoutByNumber"
+                        },
+                    ]
+                },
+                {
+                    "key": "i",
+                    "name": "Issues...",
+                    "type": "bindings",
+                    "bindings": [
+                        {
+                            "key": "v",
+                            "name": "View",
+                            "type": "command",
+                            "command": "issues:github.focus"
+                        },
+                        {
+                            "key": "o",
+                            "name": "Open In Browser",
+                            "type": "command",
+                            "command": "issues.openIssuesWebsite"
+                        },
+                        {
+                            "key": "a",
+                            "name": "Associate With Branch",
+                            "type": "command",
+                            "command": "gitlens.associateIssueWithBranch"
+                        },
+                        {
+                            "key": "c",
+                            "name": "Create...",
+                            "type": "bindings",
+                            "bindings": [
+                                {
+                                    "key": "c",
+                                    "name": "Create",
+                                    "type": "command",
+                                    "command": "issue.createIssue"
+                                },
+                                {
+                                    "key": "s",
+                                    "name": "Save Issue From Create",
+                                    "type": "command",
+                                    "command": "issue.createIssueFromFile"
+                                },
+                                {
+                                    "key": "v",
+                                    "name": "From Selection",
+                                    "type": "command",
+                                    "command": "issue.createIssueFromSelection"
+                                },
+                                {
+                                    "key": "p",
+                                    "name": "From Clipboard",
+                                    "type": "command",
+                                    "command": "issue.createIssueFromClipboard"
+                                },
+                            ]
+                        },
+                    ]
+                },
+                {
+                    "key": "m",
+                    "name": "Comments...",
+                    "type": "bindings",
+                    "bindings": [
+                        {
+                            "key": "v",
+                            "name": "View All Panel",
+                            "type": "command",
+                            "command": "workbench.action.focusCommentsPanel"
+                        },
+                        {
+                            "key": "s",
+                            "name": "Expand All",
+                            "type": "command",
+                            "command": "workbench.action.expandAllComments"
+                        },
+                        {
+                            "key": "S",
+                            "name": "Expand All Unresolved",
+                            "type": "command",
+                            "command": "workbench.action.expandUnresolvedComments"
+                        },
+                        {
+                            "key": "x",
+                            "name": "Collapse All",
+                            "type": "command",
+                            "command": "workbench.action.collapseAllComments"
+                        },
+                        {
+                            "key": "r",
+                            "name": "Refresh",
+                            "type": "command",
+                            "command": "pr.refreshComments"
+                        },
+                        {
+                            "key": "a",
+                            "name": "Add",
+                            "type": "command",
+                            "command": "workbench.action.addComment"
+                        },
+                        {
+                            "key": "n",
+                            "name": "Next",
+                            "type": "command",
+                            "command": "editor.action.nextCommentedRangeAction"
+                        },
+                        {
+                            "key": "N",
+                            "name": "Previous",
+                            "type": "command",
+                            "command": "editor.action.previousCommentedRangeAction"
+                        },
+                    ]
+                },
+                {
+                    "key": "c",
+                    "name": "Changes...",
+                    "type": "bindings",
+                    "bindings": [
+                        {
+                            "key": "r",
+                            "name": "Revert Selected",
+                            "type": "command",
+                            "command": "git.revertSelectedRanges"
+                        },
+                        {
+                            "key": "n",
+                            "name": "Next",
+                            "type": "command",
+                            "command": "workbench.action.editor.nextChange"
+                        },
+                        {
+                            "key": "N",
+                            "name": "Previous",
+                            "type": "command",
+                            "command": "workbench.action.editor.previousChange"
+                        },
+                        {
+                            "key": "v",
+                            "name": "View",
+                            "type": "command",
+                            "command": "editor.action.dirtydiff.next"
+                        },
+                        {
+                            "key": "s",
+                            "name": "Stage All",
+                            "type": "command",
+                            "command": "git.stageAll"
+                        },
+                        {
+                            "key": "u",
+                            "name": "Unstage All",
+                            "type": "command",
+                            "command": "git.unstageAll"
+                        },
+                        {
+                            "key": "S",
+                            "name": "Stage Current File",
+                            "type": "command",
+                            "command": "git.stage"
+                        },
+                        {
+                            "key": "U",
+                            "name": "Unstage Current File",
+                            "type": "command",
+                            "command": "git.unstage"
+                        },
+                    ]
+                },
+                {
+                    "key": "l",
+                    "name": "Lens...",
+                    "type": "bindings",
+                    "bindings": [
+                        {
+                            "key": "b",
+                            "name": "Toggle Line Blame",
+                            "type": "command",
+                            "command": "gitlens.toggleLineBlame"
+                        },
+                        {
+                            "key": "c",
+                            "name": "Toggle CodeLens",
+                            "type": "command",
+                            "command": "gitlens.toggleCodeLens"
+                        },
+                        // TODO: add other helpful gitlens mappings here
+                    ]
+                },
+                {
+                    "key": "a",
+                    "name": "Actions...",
+                    "type": "bindings",
+                    "bindings": [
+                        {
+                            "key": "v",
+                            "name": "View",
+                            "type": "command",
+                            "command": "workbench.view.extension.github-actions"
+                        },
+                        {
+                            "key": "s",
+                            "name": "Settings View",
+                            "type": "command",
+                            "command": "github-actions.settings.focus"
+                        },
+                        {
+                            "key": "w",
+                            "name": "Workflows View",
+                            "type": "command",
+                            "command": "github-actions.workflows.focus"
+                        },
+                        {
+                            "key": "r",
+                            "name": "Refresh",
+                            "type": "commands",
+                            "commands": [
+                                "github-actions.explorer.current-branch.refresh",
+                                "github-actions.explorer.refresh"
+                            ]
+                        },
+                    ]
+                },
+                {
+                    "key": "b",
+                    "name": "Branches...",
+                    "type": "bindings",
+                    "bindings": [
+                        {
+                            "key": "c",
+                            "name": "Create...",
+                            "type": "bindings",
+                            "bindings": [
+                                {
+                                    "key": "b",
+                                    "name": "From Base",
+                                    "type": "command",
+                                    "command": "git.branch"
+                                },
+                                {
+                                    "key": "o",
+                                    "name": "From Other",
+                                    "type": "command",
+                                    "command": "git.branchFrom"
+                                },
+                            ]
+                        },
+                        {
+                            "key": "d",
+                            "name": "Delete",
+                            "type": "command",
+                            "command": "git.deleteBranch"
+                        },
+                        {
+                            "key": "p",
+                            "name": "Publish",
+                            "type": "command",
+                            "command": "git.publish"
+                        },
+                        {
+                            "key": "C",
+                            "name": "Checkout...",
+                            "type": "bindings",
+                            "bindings": [
+                                {
+                                    "key": "c",
+                                    "name": "Normal",
+                                    "type": "command",
+                                    "command": "git.checkout"
+                                },
+                                {
+                                    "key": "d",
+                                    "name": "Detached",
+                                    "type": "command",
+                                    "command": "git.checkoutDetached"
+                                },
+                            ]
+                        },
+                    ]
+                },
+            ]
+        },
+        {
+            "key": "t",
+            "name": "Terminal...",
+            "type": "bindings",
+            "bindings": [
+                {
+                    "key": "v",
+                    "name": "View",
+                    "type": "command",
+                    "command": "terminal.focus"
+                },
+                {
+                    "key": "l",
+                    "name": "LazyGit",
+                    "type": "commands",
+                    "commands": [
+                        "lazygit.openLazygit",
+                        "workbench.action.closePanel",
+                        "workbench.action.pinEditor"
+                    ]
+                },
+                {
+                    "key": "t",
+                    "name": "TMUX",
+                    "type": "commands",
+                    "commands": [
+                        "tmux.openTmux",
+                        "workbench.action.closePanel",
+                        "workbench.action.pinEditor"
+                    ]
+                },
+            ]
+        },
+        {
+            "key": "d",
+            "name": "Database...",
+            "type": "bindings",
+            "bindings": [
+                {
+                    "key": "v",
+                    "name": "View Databases",
+                    "type": "commands",
+                    "commands": [
+                        "workbench.view.extension.github-cweijan-mysql",
+                        "github.cweijan.mysql.focus"
+                    ]
+                },
+                {
+                    "key": "n",
+                    "name": "New Connection",
+                    "type": "command",
+                    "command": "mysql.connection.add"
+                },
+            ]
+        },
+        {
+            "key": "a",
+            "name": "API...",
+            "type": "bindings",
+            "bindings": [
+                {
+                    "key": "p",
+                    "name": "Postman...",
+                    "type": "bindings",
+                    "bindings": [
+                        {
+                            "key": "v",
+                            "name": "View",
+                            "type": "commands",
+                            "command": "workbench.view.extension.sidebar-panel"
+                        },
+                        {
+                            "key": "f",
+                            "name": "Focus",
+                            "type": "commands",
+                            "command": "workbench.view.extension.sidebar-panel"
+                        },
+                        {
+                            "key": "c",
+                            "name": "Console",
+                            "type": "commands",
+                            "command": "postman-console-view.focus"
+                        },
+                    ]
+                },
+            ]
+        },
+        {
+            "key": "D",
+            "name": "Debug...",
+            "type": "bindings",
+            "bindings": [
+                {
+                    "key": "v",
+                    "name": "View",
+                    "type": "command",
+                    "command": "workbench.view.debug"
+                },
+                {
+                    "key": "r",
+                    "name": "Restart",
+                    "type": "command",
+                    "command": "workbench.action.debug.restart"
+                },
+                {
+                    "key": "d",
+                    "name": "Disconnect",
+                    "type": "command",
+                    "command": "workbench.action.debug.disconnect"
+                },
+                {
+                    "key": "r",
+                    "name": "Run To Cursor",
+                    "type": "command",
+                    "command": "editor.debug.action.runToCursor"
+                },
+                {
+                    "key": "j",
+                    "name": "Jump To Cursor",
+                    "type": "command",
+                    "command": "debug.jumpToCursor"
+                },
+                {
+                    "key": "V",
+                    "name": "Variables",
+                    "type": "command",
+                    "command": "workbench.debug.action.focusVariablesView"
+                },
+                {
+                    "key": "M",
+                    "name": "Modules",
+                    "type": "command",
+                    "command": "lldb.loadedModules.focus"
+                },
+                {
+                    "key": "p",
+                    "name": "Pause",
+                    "type": "command",
+                    "command": "workbench.action.debug.pause"
+                },
+                {
+                    "key": "n",
+                    "name": "Next (Continue)",
+                    "type": "command",
+                    "command": "workbench.action.debug.continue"
+                },
+                {
+                    "key": "o",
+                    "name": "Step Over",
+                    "type": "command",
+                    "command": "workbench.action.debug.stepOver"
+                },
+                {
+                    "key": "i",
+                    "name": "Step Into",
+                    "type": "command",
+                    "command": "workbench.action.debug.stepInto"
+                },
+                {
+                    "key": "I",
+                    "name": "Step Into Target",
+                    "type": "command",
+                    "command": "workbench.action.debug.stepIntoTarget"
+                },
+                {
+                    "key": "O",
+                    "name": "Step Out",
+                    "type": "command",
+                    "command": "workbench.action.debug.stepOut"
+                },
+                {
+                    "key": "s",
+                    "name": "Start...",
+                    "type": "bindings",
+                    "bindings": [
+                        {
+                            "key": "s",
+                            "name": "Start",
+                            "type": "command",
+                            "command": "workbench.action.debug.start"
+                        },
+                        {
+                            "key": "S",
+                            "name": "Select And Start",
+                            "type": "command",
+                            "command": "workbench.action.debug.selectandstart"
+                        },
+                    ]
+                },
+                {
+                    "key": "S",
+                    "name": "Select...",
+                    "type": "bindings",
+                    "bindings": [
+                        {
+                            "key": "s",
+                            "name": "Session",
+                            "type": "command",
+                            "command": "workbench.action.debug.selectDebugSession"
+                        },
+                        {
+                            "key": "c",
+                            "name": "Console",
+                            "type": "command",
+                            "command": "workbench.action.debug.selectDebugConsole"
+                        },
+                    ]
+                },
+                {
+                    "key": "c",
+                    "name": "Console...",
+                    "type": "bindings",
+                    "bindings": [
+                        {
+                            "key": "v",
+                            "name": "View",
+                            "type": "command",
+                            "command": "workbench.panel.repl.view.focus"
+                        },
+                        {
+                            "key": "t",
+                            "name": "Toggle",
+                            "type": "command",
+                            "command": "lldb.toggleConsoleMode"
+                        },
+                    ]
+                },
+                {
+                    "key": "C",
+                    "name": "Add Configuration",
+                    "type": "command",
+                    "command": "debug.addConfiguration"
+                },
+                {
+                    "key": "b",
+                    "name": "Breakpoint...",
+                    "type": "bindings",
+                    "bindings": [
+                        {
+                            "key": "v",
+                            "name": "View",
+                            "type": "command",
+                            "command": "workbench.debug.action.focusBreakpointsView"
+                        },
+                        {
+                            "key": "t",
+                            "name": "Toggle",
+                            "type": "command",
+                            "command": "editor.debug.action.toggleBreakpoint"
+                        },
+                        {
+                            "key": "c",
+                            "name": "Add Conditional",
+                            "type": "command",
+                            "command": "editor.debug.action.conditionalBreakpoint"
+                        },
+                        {
+                            "key": "e",
+                            "name": "Edit",
+                            "type": "command",
+                            "command": "editor.debug.action.editBreakpoint"
+                        },
+                        {
+                            "key": "n",
+                            "name": "Next",
+                            "type": "command",
+                            "command": "editor.debug.action.goToNextBreakpoint"
+                        },
+                        {
+                            "key": "N",
+                            "name": "Previous",
+                            "type": "command",
+                            "command": "editor.debug.action.goToPreviousBreakpoint"
+                        },
+                        {
+                            "key": "i",
+                            "name": "Inline (multiple statements in line)",
+                            "type": "command",
+                            "command": "editor.debug.action.toggleInlineBreakpoint"
+                        },
+                        {
+                            "key": "t",
+                            "name": "Toggle Active Breakpoints",
+                            "type": "command",
+                            "command": "workbench.debug.viewlet.action.toggleBreakpointsActivatedAction"
+                        },
+                        {
+                            "key": "r",
+                            "name": "Remove All Breakpoints",
+                            "type": "command",
+                            "command": "workbench.debug.viewlet.action.removeAllBreakpoints"
+                        },
+                        {
+                            "key": "T",
+                            "name": "Triggered (ability to toggle other breakpoints)",
+                            "type": "command",
+                            "command": "editor.debug.action.triggerByBreakpoint"
+                        },
+                        {
+                            "key": "f",
+                            "name": "Function Breakpoint",
+                            "type": "command",
+                            "command": "workbench.debug.viewlet.action.addFunctionBreakpointAction"
+                        },
+                    ]
+                },
+                {
+                    "key": "l",
+                    "name": "Logpoint",
+                    "type": "command",
+                    "command": "editor.debug.action.addLogPoint"
+                },
+                {
+                    "key": "w",
+                    "name": "Watch...",
+                    "type": "bindings",
+                    "bindings": [
+                        {
+                            "key": "a",
+                            "name": "Add (watch item on cursor)",
+                            "type": "command",
+                            "command": "editor.debug.action.selectionToWatch"
+                        },
+                        {
+                            "key": "v",
+                            "name": "View",
+                            "type": "command",
+                            "command": "workbench.debug.action.focusWatchView"
+                        },
+                    ]
+                },
+                {
+                    "key": "a",
+                    "name": "Call Stack...",
+                    "type": "bindings",
+                    "bindings": [
+                        {
+                            "key": "v",
+                            "name": "View",
+                            "type": "command",
+                            "command": "workbench.debug.action.focusCallStackView"
+                        },
+                        {
+                            "key": "n",
+                            "name": "Navigate Down",
+                            "type": "command",
+                            "command": "workbench.action.debug.callStackDown"
+                        },
+                        {
+                            "key": "N",
+                            "name": "Navigate Up",
+                            "type": "command",
+                            "command": "workbench.action.debug.callStackUp"
+                        },
+                        {
+                            "key": "}",
+                            "name": "Navigate Bottom",
+                            "type": "command",
+                            "command": "workbench.action.debug.callStackBottom"
+                        },
+                        {
+                            "key": "{",
+                            "name": "Navigate Top",
+                            "type": "command",
+                            "command": "workbench.action.debug.callStackUp"
+                        }
+                    ]
+                },
+            ]
+        },
+        {
+            "key": "T",
+            "name": "Test...",
+            "type": "bindings",
+            "bindings": [
+                {
+                    "key": "v",
+                    "name": "View",
+                    "type": "command",
+                    "command": "workbench.view.extension.test",
+                },
+                {
+                    "key": "n",
+                    "name": "Next Failure",
+                    "type": "command",
+                    "command": "testing.goToNextMessage",
+                },
+                {
+                    "key": "N",
+                    "name": "Previous Failure",
+                    "type": "command",
+                    "command": "testing.goToPreviousMessage",
+                },
+                {
+                    "key": "f",
+                    "name": "Failed",
+                    "type": "command",
+                    "command": "testing.refreshTests",
+                },
+                {
+                    "key": "R",
+                    "name": "Rerun...",
+                    "type": "bindings",
+                    "bindings": [
+                        {
+                            "key": "f",
+                            "name": "Failed",
+                            "type": "command",
+                            "command": "testing.reRunFailTests",
+                        },
+                        {
+                            "key": "l",
+                            "name": "Last",
+                            "type": "command",
+                            "command": "testing.reRunLastRun",
+                        },
+                        {
+                            "key": "L",
+                            "name": "Last With Coverage",
+                            "type": "command",
+                            "command": "testing.coverageLastRun",
+                        },
+                    ]
+                },
+                {
+                    "key": "r",
+                    "name": "Run...",
+                    "type": "bindings",
+                    "bindings": [
+                        {
+                            "key": "p",
+                            "name": "All Paralell",
+                            "type": "command",
+                            "command": "swift.runAllTestsParallel",
+                        },
+                        {
+                            "key": "a",
+                            "name": "All",
+                            "type": "command",
+                            "command": "testing.runAll",
+                        },
+                        {
+                            "key": "A",
+                            "name": "With Coverage",
+                            "type": "command",
+                            "command": "testing.coverageAll",
+                        },
+                        {
+                            "key": "c",
+                            "name": "At Cursor",
+                            "type": "command",
+                            "command": "testing.runAtCursor",
+                        },
+                        {
+                            "key": "C",
+                            "name": "Cursor With Coverage",
+                            "type": "command",
+                            "command": "testing.coverageAtCursor",
+                        },
+                        {
+                            "key": "f",
+                            "name": "All In File",
+                            "type": "command",
+                            "command": "testing.runCurrentFile",
+                        },
+                        {
+                            "key": "F",
+                            "name": "All In File With Coverage",
+                            "type": "command",
+                            "command": "testing.coverageCurrentFile",
+                        },
+                    ]
+                },
+                {
+                    "key": "c",
+                    "name": "Coverage",
+                    "type": "command",
+                    "command": "testing.openCoverage",
+                },
+                {
+                    "key": "o",
+                    "name": "Output...",
+                    "type": "bindings",
+                    "bindings": [
+                        // Peek
+                        {
+                            "key": "p",
+                            "name": "Peek",
+                            "type": "command",
+                            "command": "testing.openOutputPeek",
+                        },
+                        {
+                            "key": "t",
+                            "name": "Toggle History In Peek",
+                            "type": "command",
+                            "command": "testing.toggleTestingPeekHistory",
+                        },
+                        //
+                        {
+                            "key": "v",
+                            "name": "View",
+                            "type": "command",
+                            "command": "testing.showMostRecentOutput",
+                        },
+                        {
+                            "key": "i",
+                            "name": "Inline",
+                            "type": "command",
+                            "command": "testing.toggleInlineTestOutput",
+                        },
+                    ]
+                },
+                {
+                    "key": "d",
+                    "name": "Debug...",
+                    "type": "bindings",
+                    "bindings": [
+                        {
+                            "key": "a",
+                            "name": "All",
+                            "type": "command",
+                            "command": "testing.debugAll",
+                        },
+                        {
+                            "key": "F",
+                            "name": "Failed",
+                            "type": "command",
+                            "command": "testing.debugFailTests",
+                        },
+                        {
+                            "key": "c",
+                            "name": "At Cursor",
+                            "type": "command",
+                            "command": "testing.debugAtCursor",
+                        },
+                        {
+                            "key": "f",
+                            "name": "All In File",
+                            "type": "command",
+                            "command": "testing.debugCurrentFile",
+                        },
+                        {
+                            "key": "l",
+                            "name": "Last Run",
+                            "type": "command",
+                            "command": "testing.debugLastRun",
+                        },
+                    ]
+                },
+                {
+                    "key": "r",
+                    "name": "Results...",
+                    "type": "bindings",
+                    "bindings": [
+                        {
+                            "key": "v",
+                            "name": "View",
+                            "type": "command",
+                            "command": "workbench.panel.testResults.view.focus",
+                        },
+                        {
+                            "key": "c",
+                            "name": "Clear",
+                            "type": "command",
+                            "command": "testing.clearTestResults",
+                        },
+                    ]
+                },
+            ]
+        },
+        {
+            "key": "s",
+            "name": "Search...",
+            "type": "bindings",
+            "bindings": [
+                {
+                    "key": "s",
+                    "name": "Search Project",
+                    "type": "command",
+                    "command": "workbench.view.search"
+                },
+                {
+                    "key": "v",
+                    "name": "Focus View",
+                    "type": "command",
+                    "command": "workbench.view.search.focus"
+                },
+                {
+                    "key": "c",
+                    "name": "Toggle Case Sensitive",
+                    "type": "command",
+                    "command": "toggleSearchCaseSensitive"
+                },
+                {
+                    "key": "w",
+                    "name": "Toggle Whole Word",
+                    "type": "command",
+                    "command": "toggleSearchWholeWord"
+                },
+                {
+                    "key": "r",
+                    "name": "Toggle Search Regex",
+                    "type": "command",
+                    "command": "toggleSearchRegex"
+                },
+                {
+                    "key": "p",
+                    "name": "Toggle Preserve Case",
+                    "type": "command",
+                    "command": "toggleSearchPreserveCase"
+                },
+                {
+                    "key": "a",
+                    "name": "Replace All",
+                    "type": "command",
+                    "command": "search.action.replaceAll"
+                },
+                {
+                    "key": "n",
+                    "name": "Focus Next Result",
+                    "type": "command",
+                    "command": "search.action.focusNextSearchResult"
+                },
+                {
+                    "key": "N",
+                    "name": "Focus Previous Result",
+                    "type": "command",
+                    "command": "search.action.focusPreviousSearchResult"
+                },
+            ]
+        },
+        {
+            "key": "k",
+            "name": "Container Software...",
+            "type": "bindings",
+            "bindings": [
+                {
+                    "key": "d",
+                    "name": "Docker...",
+                    "type": "bindings",
+                    "bindings": [
+                        {
+                            "key": "v",
+                            "name": "View",
+                            "type": "command",
+                            "command": "workbench.view.extension.dockerView"
+                        },
+                    ]
+                },
+            ]
+        },
+        {
+            "key": "e",
+            "name": "Extensions...",
+            "type": "bindings",
+            "bindings": [
+                {
+                    "key": "v",
+                    "name": "View",
+                    "type": "command",
+                    "command": "workbench.view.extensions"
+                },
+            ]
+        },
+        {
+            "key": "S",
+            "name": "Settings...",
+            "type": "bindings",
+            "bindings": [
+                {
+                    "key": "v",
+                    "name": "Open",
+                    "type": "command",
+                    "command": "workbench.action.openGlobalSettings"
+                },
+                {
+                    "key": "k",
+                    "name": "Keybindings",
+                    "type": "command",
+                    "command": "workbench.action.openGlobalKeybindings"
+                },
+            ]
+        },
+        {
+            "key": "+",
+            "name": "1",
+            "type": "command",
+            "command": "vscode-harpoon.gotoEditor1"
+        },
+        {
+            "key": "[",
+            "name": "2",
+            "type": "command",
+            "command": "vscode-harpoon.gotoEditor2"
+        },
+        {
+            "key": "{",
+            "name": "3",
+            "type": "command",
+            "command": "vscode-harpoon.gotoEditor3"
+        },
+        {
+            "key": "(",
+            "name": "4",
+            "type": "command",
+            "command": "vscode-harpoon.gotoEditor4"
+        },
+        {
+            "key": "&",
+            "name": "5",
+            "type": "command",
+            "command": "vscode-harpoon.gotoEditor5"
+        },
+        {
+            "key": "h",
+            "name": "Harpoon...",
+            "type": "bindings",
+            "bindings": [
+                {
+                    "key": "a",
+                    "name": "Add Editor",
+                    "type": "command",
+                    "command": "vscode-harpoon.addEditor"
+                },
+                {
+                    "key": "e",
+                    "name": "Edit Editors",
+                    "type": "command",
+                    "command": "vscode-harpoon.editEditors"
+                },
+                {
+                    "key": "l",
+                    "name": "Quick Pick",
+                    "type": "command",
+                    "command": "vscode-harpoon.editorQuickPick"
+                },
+                {
+                    "key": "p",
+                    "name": "Quick Pick",
+                    "type": "command",
+                    "command": "vscode-harpoon.gotoPreviousHarpoonEditor"
+                },
+                {
+                    "key": "g",
+                    "name": "Global...",
+                    "type": "bindings",
+                    "bindings": [
+                        {
+                            "key": "a",
+                            "name": "Add Editor",
+                            "type": "command",
+                            "command": "vscode-harpoon.addGlobalEditor"
+                        },
+                        {
+                            "key": "e",
+                            "name": "Edit Editors",
+                            "type": "command",
+                            "command": "vscode-harpoon.editGlobalEditors"
+                        },
+                        {
+                            "key": "l",
+                            "name": "Quick Pick",
+                            "type": "command",
+                            "command": "vscode-harpoon.editorGlobalQuickPick"
+                        },
+                        {
+                            "key": "p",
+                            "name": "Quick Pick",
+                            "type": "command",
+                            "command": "vscode-harpoon.gotoPreviousGlobalHarpoonEditor"
+                        },
+                        {
+                            "key": "+",
+                            "name": "1",
+                            "type": "command",
+                            "command": "vscode-harpoon.gotoGlobalEditor1"
+                        },
+                        {
+                            "key": "[",
+                            "name": "2",
+                            "type": "command",
+                            "command": "vscode-harpoon.gotoGlobalEditor2"
+                        },
+                        {
+                            "key": "{",
+                            "name": "3",
+                            "type": "command",
+                            "command": "vscode-harpoon.gotoGlobalEditor3"
+                        },
+                        {
+                            "key": "(",
+                            "name": "4",
+                            "type": "command",
+                            "command": "vscode-harpoon.gotoGlobalEditor4"
+                        },
+                        {
+                            "key": "&",
+                            "name": "5",
+                            "type": "command",
+                            "command": "vscode-harpoon.gotoGlobalEditor5"
+                        },
+                    ]
+                },
+            ]
+        },
+        {
+            "key": "P",
+            "name": "Panel...",
+            "type": "bindings",
+            "bindings": [
+                {
+                    "key": "v",
+                    "name": "View",
+                    "type": "command",
+                    "command": "workbench.action.focusPanel"
+                },
+                {
+                    "key": "t",
+                    "name": "Toggle",
+                    "type": "command",
+                    "command": "workbench.action.togglePanel"
+                },
+                {
+                    "key": "c",
+                    "name": "Choose",
+                    "type": "command",
+                    "command": "workbench.actin.showOutputChannels"
+                },
+            ]
+        },
+        {
+            "key": "M",
+            "name": "Problems...",
+            "type": "bindings",
+            "bindings": [
+                {
+                    "key": "v",
+                    "name": "View",
+                    "type": "command",
+                    "command": "workbench.panel.markers.view.focus"
+                },
+                {
+                    "key": "n",
+                    "name": "Next",
+                    "type": "command",
+                    "command": "editor.action.marker.nextInFiles"
+                },
+                {
+                    "key": "N",
+                    "name": "Previous",
+                    "type": "command",
+                    "command": "editor.action.marker.prevInFiles"
+                },
+            ]
+        },
+        {
+            "key": "f",
+            "name": "Forwarded Ports...",
+            "type": "bindings",
+            "bindings": [
+                {
+                    "key": "v",
+                    "name": "View",
+                    "type": "command",
+                    "command": "~remote.forwardedPorts.focus"
+                },
+            ]
+        },
+        {
+            "key": "l",
+            "name": "Language...",
+            "type": "bindings",
+            "bindings": [
+                {
+                    "key": "s",
+                    "name": "Swift...",
+                    "type": "bindings",
+                    "bindings": [
+                        {
+                            "key": "r",
+                            "name": "Restart",
+                            "type": "command",
+                            "command": "swift.restartLSPServer"
+                        },
+                    ]
+                },
+            ]
+        },
+        {
+            "key": "F",
+            "name": "File...",
+            "type": "bindings",
+            "bindings": [
+                {
+                    "key": "p",
+                    "name": "Copy Path",
+                    "type": "command",
+                    "command": "copyFilePath"
+                },
+            ]
+        },
+    ],
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.editor.editorActionsLocation": "hidden",
+    "gitlens.launchpad.indicator.enabled": false
+}
