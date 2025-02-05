@@ -159,22 +159,6 @@
         },
         {
             "before": [
-                "{"
-            ],
-            "commands": [
-                "workbench.action.previousEditor"
-            ]
-        },
-        {
-            "before": [
-                "}"
-            ],
-            "commands": [
-                "workbench.action.nextEditor"
-            ]
-        },
-        {
-            "before": [
                 "}"
             ],
             "commands": [
@@ -1457,31 +1441,31 @@
             ]
         },
         {
-            "key": "+",
+            "key": "1",
             "name": "1",
             "type": "command",
             "command": "vscode-harpoon.gotoEditor1"
         },
         {
-            "key": "[",
+            "key": "2",
             "name": "2",
             "type": "command",
             "command": "vscode-harpoon.gotoEditor2"
         },
         {
-            "key": "{",
+            "key": "3",
             "name": "3",
             "type": "command",
             "command": "vscode-harpoon.gotoEditor3"
         },
         {
-            "key": "(",
+            "key": "4",
             "name": "4",
             "type": "command",
             "command": "vscode-harpoon.gotoEditor4"
         },
         {
-            "key": "&",
+            "key": "5",
             "name": "5",
             "type": "command",
             "command": "vscode-harpoon.gotoEditor5"
@@ -1545,31 +1529,31 @@
                             "command": "vscode-harpoon.gotoPreviousGlobalHarpoonEditor"
                         },
                         {
-                            "key": "+",
+                            "key": "1",
                             "name": "1",
                             "type": "command",
                             "command": "vscode-harpoon.gotoGlobalEditor1"
                         },
                         {
-                            "key": "[",
+                            "key": "2",
                             "name": "2",
                             "type": "command",
                             "command": "vscode-harpoon.gotoGlobalEditor2"
                         },
                         {
-                            "key": "{",
+                            "key": "3",
                             "name": "3",
                             "type": "command",
                             "command": "vscode-harpoon.gotoGlobalEditor3"
                         },
                         {
-                            "key": "(",
+                            "key": "4",
                             "name": "4",
                             "type": "command",
                             "command": "vscode-harpoon.gotoGlobalEditor4"
                         },
                         {
-                            "key": "&",
+                            "key": "5",
                             "name": "5",
                             "type": "command",
                             "command": "vscode-harpoon.gotoGlobalEditor5"
@@ -1678,5 +1662,6 @@
     "window.commandCenter": false,
     "workbench.layoutControl.enabled": false,
     "workbench.editor.editorActionsLocation": "hidden",
-    "gitlens.launchpad.indicator.enabled": false
+    "gitlens.launchpad.indicator.enabled": false,
+    "workbench.editor.showTabs": "none"
 }

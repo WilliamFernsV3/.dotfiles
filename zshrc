@@ -1,10 +1,11 @@
 export bun="~/.bun/bin"
+eval "$(/opt/homebrew/bin/brew shellenv)"
 export PATH="/opt/homebrew/bin:$PATH"
 export PATH="$HOME/.config/scripts:$PATH"
 export PATH="/usr/local/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.emacs.d/bin:$PATH"
- 
+
 # Start tmux automatically if not already inside a tmux session
 # if [ -z "$TMUX" ]; then
 #   tmux
