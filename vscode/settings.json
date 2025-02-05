@@ -482,6 +482,19 @@
                     ]
                 },
                 {
+                    "key": "P",
+                    "name": "Permalink...",
+                    "type": "bindings",
+                    "bindings": [
+                        {
+                            "key": "c",
+                            "name": "Copy",
+                            "type": "command",
+                            "command": "issue.copyGithubPermalink"
+                        }
+                    ]
+                },
+                {
                     "key": "i",
                     "name": "Issues...",
                     "type": "bindings",

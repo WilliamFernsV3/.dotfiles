@@ -1,5 +1,7 @@
 # My Dotfiles
 
+<!-- TODO: add links -->
+
 Welcome to my dotfiles! Here are all the configurations for tools I use to be more productive. This includes, but aren't limited to:
 - [Aerospace]() - tiling window manager for OSX, similar to i3wm.
 - [TMUX]() - terminal multiplexer.
