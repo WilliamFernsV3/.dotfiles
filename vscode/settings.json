@@ -1658,6 +1658,37 @@
                 },
             ]
         },
+        {
+            "key": "W",
+            "name": "Project...",
+            "type": "bindings",
+            "bindings": [
+                {
+                    "key": "l",
+                    "name": "List",
+                    "type": "command",
+                    "command": "projectManager.listProjects"
+                },
+                {
+                    "key": "a",
+                    "name": "Add",
+                    "type": "command",
+                    "command": "projectManager.addToWorkspace"
+                },
+                {
+                    "key": "e",
+                    "name": "Edit",
+                    "type": "command",
+                    "command": "projectManager.editProjects"
+                },
+                {
+                    "key": "s",
+                    "name": "Save",
+                    "type": "command",
+                    "command": "projectManager.saveProject"
+                },
+            ]
+        },
     ],
     "window.commandCenter": false,
     "workbench.layoutControl.enabled": false,

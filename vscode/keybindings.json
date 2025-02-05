@@ -358,5 +358,9 @@
     {
         "key": "ctrl+e",
         "command": "workbench.explorer.fileView.focus"
+    },
+    {
+        "key": "alt+cmd+p",
+        "command": "-projectManager.listProjects"
     }
 ]
